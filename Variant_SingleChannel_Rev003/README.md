@@ -2,6 +2,7 @@
 
 ## Revision//0.3.0 Key Updates:
 
+* Enlarged Fonts
 * Added Fiducials
 * Rerouted LED to 3v
 * Removed Resistor between data out and LED strip (Caused reliability issues)

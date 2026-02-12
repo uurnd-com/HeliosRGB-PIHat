@@ -1,6 +1,11 @@
 # HeliosRGB-PIHat
 
-## Revision//0.0.2 Key Updates:
+## Revision//0.2.2 Key Updates:
+
+* Moved LED to 3v3
+* Enlarged Font Size
+
+## Revision//0.2.1 Key Updates:
 
 * Updated Routing
 * Removed Power Switch
