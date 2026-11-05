@@ -1,27 +1,17 @@
-# HeliosRGB-PIHat
+# Helios 3.3V-5V RGB(W) Level Converter Pi Hat
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-## Revision//0.3.0 Key Updates:
+**The Helios RGB Pi HAt Series of level converters are designed to simply plug into your Raspberry Pi (2,3,4,5) or Raspberry Pi Zero (1,2,1W,2W) and then plug in both your RGB(W) Led strip and its power source (Example: SK6812, WS2812b) to quickly let you get setup and experimenting with amazing RGB(W) LEDs**
 
-* Enlarged Fonts
-* Added Fiducials
-* Rerouted LED to 3v
-* Removed Resistor between data out and LED strip (Caused reliability issues)
-* Updated Routing
+### Variants:
+  - **HeliosRGB-Pi Hat Revision 0.3 [Single Channel]**
+    - [![Pi Hat Single Channel RGB(W) Level Shifter](https://github.com/uurnd-com/HeliosRGB-PIHat/blob/main/Variant_SingleChannel_Rev003/Images/3dRenderPopTop.png "3 Pin//1 Channel RGB Level Shifter")](https://github.com/uuinc-co/HeliosRGB-Inline/tree/main/Variant_3Pin_1Channel)
+      - Helios RGB Level Converter Pi Hat Accepts any RGB(W) LED compatible with the 74AHCT125 chip from 5V to 24VDC so long as the RGB(W) LED supports 5V Logic Levels **(Which is most of them)**. Simply slide your RGB Strips wires into the screw terminal and plug in your LED Strip's Power into the barrel jack and you're off to the races! The board converts the Pi's 3V Logic to 5V logic that RGB LEDs like a SK6812, WS2812b or other compatible LED's need.
+    Supports WS2812, SK6812 and other LEDs with input power ~5V and Logic Voltage between ~3-5v.
+    
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
-![Helios RGB LED Pi Hat](https://github.com/uuinc-co/HeliosRGB-PIHat/blob/main/Variant_SingleChannel_Rev003/Images/TOP_2DRender_unpopulated_2026-02-08.png "Top View - Helios RGB LED Pi Hat")
-![Helios RGB LED Pi Hat](https://github.com/uuinc-co/HeliosRGB-PIHat/blob/main/Variant_SingleChannel_Rev003/Images/BTM_2DRender_unpopulated_2026-02-08.png "Btm View - Helios RGB LED Pi Hat")
-
-## Revision//0.2.2 Key Updates:
-
-* Moved LED to 3v3
-* Enlarged Font Size
-
-## Revision//0.2.1 Key Updates:
-
-* Updated Routing
-* Moved I2C Jst Plug
-* Added 4 GPIO Selection Switch
-* Updated Silkscreens
-
-![Helios RGB LED Pi Hat](https://github.com/uuinc-co/HeliosRGB-PIHat/blob/main/Variant_SingleChannel_Rev002/Images/Top-View_2026-01-15.png "Top View - Helios RGB LED Pi Hat")
-![Helios RGB LED Pi Hat](https://github.com/uuinc-co/HeliosRGB-PIHat/blob/main/Variant_SingleChannel_Rev002/Images/Btm-View_2026-01-15.png "Btm View - Helios RGB LED Pi Hat")
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
